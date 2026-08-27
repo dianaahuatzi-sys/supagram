@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { getTimeAgo } from "./utils/time";
 //import { posts as initialPosts, type Post } from "./mocks/posts";
 import { supabase } from "./utils/client";
+import { Post } from "./mocks/posts";
 
 
 function HeartIcon({ filled }: { filled: boolean }) {
